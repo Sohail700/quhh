@@ -26,8 +26,12 @@
   }
 }
 @media (max-width: 799px) {
-  .preview-container {
+  .preview-container
+   {
     max-width: 370px;
     font-size: 16px;
+  }
+  main h1 {
+    max-width: 370px;
   }
 }
