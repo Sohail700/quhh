@@ -18,17 +18,15 @@
 @media (max-width: 799px) {
   .header-container {
     flex-direction: column;
-    height: 110px;
-    justify-content: center;
-    align-items: center;
+    height: 150px;
+    justify-content: end;
+    align-items: start;
   }
-  .header-nav-container {
-    width: 600x;
-    font-size: 16px;
-    margin: 20px;
-  }
-  .blog-name {
-    margin-left: 0;
+  .header-nav-container a{
+    width: 400x;
+    font-size: 10px;
+    margin-right: -10px;
+    margin-top: 5px;
   }
 }
 
