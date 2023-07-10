@@ -32,19 +32,6 @@
   font-size: 20px;
   padding: 0 10px;
 }
-@media (max-width: 486px) {
-  .header-nav-container a{
-    width: 1fr;
-    font-size: 16px;
-  }
-}
-@media (min-width: 487px) {
-  .header-nav-container a{
-    width: 1fr;
-    font-size: 20px;
-    font-weight: 600;
-  }
-}
 
 .header-nav-container a:hover {
   color: #c7c7c7;
@@ -62,8 +49,8 @@
   
 }
 .back-image img {
-  height: 100%;
-  width: 100%;
+  max-width: 100%;
+  height: auto;
   object-fit: cover;
   object-position:top;
   image-rendering:pixelated;
@@ -99,7 +86,7 @@
 
 @media (max-width: 799px) {
   .preview-container {
-    max-width: 400px;
+    max-width: 300px;
     font-size: 16px;
   }
 }
