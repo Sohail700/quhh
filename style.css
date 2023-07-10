@@ -10,10 +10,26 @@
   height: 70px;
   flex-direction: row;
   justify-content: space-between;
-  padding: 20px 50px;
+  padding: 10px 50px;
   align-items: center;
   box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.2);
   background-color: #343232;
+}
+@media (max-width: 799px) {
+  .header-container {
+    flex-direction: column;
+    height: 110px;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-nav-container {
+    width: 600x;
+    font-size: 16px;
+    margin: 20px;
+  }
+  .blog-name {
+    margin-left: 0;
+  }
 }
 
 /* blog name css */
@@ -31,6 +47,7 @@
   font-weight: 500;
   font-size: 20px;
   padding: 0 10px;
+
 }
 
 .header-nav-container a:hover {
@@ -39,6 +56,7 @@
 .header-nav-container a:active {
   text-decoration: underline;
 }
+
 
 /* background image */
 .back-image{
