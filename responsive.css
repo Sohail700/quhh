@@ -1,0 +1,33 @@
+@media (max-width: 800px) {
+  .header-container {
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 140px;
+    justify-content: center;
+    align-items: start;
+    padding: 5px 5px;
+    z-index: 300;
+  }
+   
+  .header-nav-container {
+    display: flex;
+  }
+}
+@media (max-width: 801px) and (min-width:999px) {
+  .header-nav-container a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #e3e3e3;;
+    font-weight: 500;
+    margin: 0 5px;
+  }
+}
+@media (max-width: 799px) {
+  .preview-container {
+    max-width: 370px;
+    font-size: 16px;
+  }
+}
