@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
-.container {
+/* header container  */
+.header-container {
   display: flex;
   position: fixed;
   top: 0;
@@ -12,24 +13,71 @@
   padding: 20px 50px;
   align-items: center;
   box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.2);
+  background-color: #343232;
 }
 
+/* blog name css */
 .blog-name a {
   text-decoration: none;
-  color: #333;
+  color: #e3e3e3;
   font-weight: 700;
   font-size: 25px;
 }
 
-
+/* navigation container */
 .header-nav-container a {
   text-decoration: none;
-  color: #2f2f2f;
+  color: #e3e3e3;;
   font-weight: 600;
   font-size: 20px;
   padding: 0 10px;
 }
 .header-nav-container a:hover {
-  color: #686868;
+  color: #c7c7c7;
+}
+.header-nav-container a:active {
+  text-decoration: underline;
 }
 
+/* background image */
+.back-image{
+  display: flex;
+  height: 400px;
+  width: 1fr;
+  background-attachment:fixed;
+  
+}
+.back-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position:top;
+  image-rendering:pixelated;
+}
+
+/* main section start here */
+.preview-container {
+  margin: 70px 70px;
+  width: 800px;
+
+}
+.preview-container p {
+  padding: 5px 5px;
+}
+
+.preview-container .topic {
+  font-size: 35px;
+  font-weight: 900;
+
+}
+.preview-container .content {
+  font-size: 27px;
+  font-weight: 400;
+}
+.preview-container .author {
+  font-size: 20px;
+}
+
+.preview-container .post:hover {
+  color: rgb(0, 58, 106);
+}
