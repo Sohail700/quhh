@@ -21,5 +21,20 @@ body {
 
 /* main about section */
 .about {
-  margin-bottom: 300px;
+
+  margin-bottom: 500px;
+  width: 310px;
+  margin: 10px 10px;
+  position: relative;
+}
+.about img {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+.about .linkedin {
+  position: absolute;
+  top: 153px;
+  left: 116px;
 }

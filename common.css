@@ -12,7 +12,7 @@ footer a{
   position: absolute;
   left: -10px;
   right: -10px;
-  top: 1fr;
+  bottom: -500px;
   text-decoration: none;
   font-weight: 700;
 }

@@ -83,6 +83,11 @@
   font-size: 20px;
 }
 
-.preview-container .post:hover {
+.preview-container .post a:hover {
   color: rgb(0, 58, 106);
+}
+
+.preview-container .post a {
+  text-decoration: none;
+  color: #161616;
 }
