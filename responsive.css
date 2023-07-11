@@ -15,7 +15,21 @@ html {
     padding: 5px 5px;
     z-index: 300;
   }
-   
+  .space-header-container {
+    flex-direction: row;
+    position: fixed;
+    position: relative;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 90px;
+    padding: 5px 5px;
+    z-index: 300;
+  }
+  .space-header-container .back {
+    margin-right: 20px;
+  } 
   .header-nav-container {
     display: flex;
     position: absolute;
@@ -68,5 +82,12 @@ html {
   .content h3,
   .content h2 {
     width: 100%;
-}
+  }
+  .space-container {
+    max-width: 420px;
+    padding-left: 10px;
+  }
+  .space-container .space-post {
+    margin: 0 0;
+  }
 }
