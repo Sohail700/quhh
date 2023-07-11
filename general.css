@@ -44,3 +44,6 @@ main h1 {
 main .main-content {
   margin-bottom: 200px;
 }
+html,body{
+  overflow-x: hidden;
+}
