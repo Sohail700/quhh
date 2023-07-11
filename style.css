@@ -30,8 +30,8 @@
   color: #e3e3e3;;
   font-weight: 500;
   font-size: 18px;
-  margin: 0 5px;
-  
+  margin: 0;
+  margin-right: 7px;
 }
 
 .header-nav-container a:hover {
