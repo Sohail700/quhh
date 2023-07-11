@@ -4,12 +4,13 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+html{
+  overflow-x: hidden;
+}
 body {
   font-family: 'Poppins', sans-serif;
   position: relative;
   background-color: rgb(247, 246, 244);
-  overflow: auto;
   height: auto;
 }
 
@@ -37,13 +38,10 @@ main h1 {
   position: absolute;
   left: -10px;
   right: -10px;
-  bottom: -250px;
+  bottom: 1fr;
   margin-top: 100px;
 }
 
 main .main-content {
-  margin-bottom: 200px;
-}
-html,body{
-  overflow-x: hidden;
+  margin-bottom: 300px;
 }

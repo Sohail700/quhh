@@ -1,0 +1,37 @@
+html{
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(247, 246, 244);
+  position: relative;
+  height: auto;
+}
+
+
+main .content {
+  margin-bottom: 300px; 
+}
+
+
+
+
+
+footer {
+  background-color: #343232;
+  color: rgb(247, 246, 244);
+  display: flex;
+  justify-content: center;
+  padding: 20px 20px;
+  width: 1fr;
+  position: absolute;
+  left: -10px;
+  right: -10px;
+  bottom: -500px;
+}
