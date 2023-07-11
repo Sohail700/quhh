@@ -59,3 +59,12 @@ body {
  margin-top: 10px;
  width: 700px;
 }
+
+.math-video {
+  object-fit: fill;
+  width: 100vw;
+  height: 70vh;
+}
+.space-container {
+  margin-top: 0;
+}
