@@ -5,7 +5,6 @@ html {
   .header-container {
     flex-direction: column;
     position: fixed;
-    position: relative;
     top: 0;
     left: 0;
     right: 0;
@@ -18,7 +17,6 @@ html {
   .space-header-container {
     flex-direction: row;
     position: fixed;
-    position: relative;
     justify-content: space-between;
     top: 0;
     left: 0;
@@ -90,6 +88,7 @@ html {
   .space-container {
     max-width: 420px;
     padding-left: 10px;
+    margin-top: 170px;
   }
   .space-container .space-post {
     margin: 0 0;
