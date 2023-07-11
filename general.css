@@ -12,6 +12,7 @@ body {
   position: relative;
   background-color: rgb(247, 246, 244);
   height: auto;
+  overflow-x: hidden;
 }
 
 hr {
@@ -27,19 +28,6 @@ main h1 {
   padding: 0;
   font-weight: 900;
   text-decoration: underline;
-}
- footer {
-  background-color: #343232;
-  color: rgb(247, 246, 244);
-  display: flex;
-  justify-content: center;
-  padding: 20px 20px;
-  width: 1fr;
-  position: absolute;
-  left: -10px;
-  right: -10px;
-  bottom: 1fr;
-  margin-top: 100px;
 }
 
 main .main-content {

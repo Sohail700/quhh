@@ -1,0 +1,23 @@
+
+footer {
+  transition: font-weight 0.8s;
+}
+footer a{
+  background-color: #343232;
+  color: rgb(247, 246, 244);
+  display: flex;
+  justify-content: center;
+  padding: 20px 20px;
+  width: 1fr;
+  position: absolute;
+  left: -10px;
+  right: -10px;
+  top: 1fr;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+footer a:hover {
+  font-weight: 800;
+
+}

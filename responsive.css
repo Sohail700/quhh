@@ -9,7 +9,7 @@ html {
     top: 0;
     left: 0;
     right: 0;
-    height: 140px;
+    height: 170px;
     justify-content: center;
     align-items: start;
     padding: 5px 5px;
@@ -36,28 +36,37 @@ html {
 @media (max-width: 801px) and (min-width:999px) {
   
 }
-@media (max-width: 799px) {
+@media (max-width: 750px) {
+  .main-content {
+    width: 310px;
+  }
   .preview-container{
-    max-width: 370px;
+    width: 100%;
     font-size: 16px;
   }
   main hr{
-    max-width: 320px;
+    max-width: 100%;
     margin: 70px 35px;
   }
   .content hr {
-    max-width: 320px;
+    max-width: 100%;
     margin: 20px 0px;
   }
 }
 
-@media (max-width: 799px) {
+@media (max-width: 750px) {
   .content {
-    max-width: 370px;
+    max-width: 310px;
     font-size: 16px;
   }
   .content h1 {
+    width: 100%;
     margin: 0;
     padding: 0;
   }
+  .content h1,
+  .content h3,
+  .content h2 {
+    width: 100%;
+}
 }

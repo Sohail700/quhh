@@ -12,6 +12,7 @@ body {
   background-color: rgb(247, 246, 244);
   position: relative;
   height: auto;
+  overflow-x: hidden;
 }
 
 main .content {
@@ -32,19 +33,6 @@ main .content {
 }
 .content h1:hover {
   color: rgb(12, 47, 47);
-}
-footer {
-  background-color: #343232;
-  color: rgb(247, 246, 244);
-  display: flex;
-  justify-content: center;
-  padding: 20px 20px;
-  width: 1fr;
-  position: absolute;
-  left: -10px;
-  right: -10px;
-  bottom: 1fr;
-  margin-top: 100px;
 }
 hr {
   margin: 20px 0px;
