@@ -93,5 +93,10 @@ html {
   .space-container .space-post {
     margin: 0 0;
   }
- 
+  .middle-section .back-video {
+    object-fit: fill;
+    width: 70vw;
+    height: 50vh;
+  }
+  
 }

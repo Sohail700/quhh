@@ -43,6 +43,16 @@ body {
   text-decoration: none;
   color: #1e1e1e;
 }
- .about h3:hover {
+.about h3:hover {
   color: rgb(25, 45, 45);
- }
+}
+.midde-section {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.back-video {
+  object-fit: fill;
+  width: 100vw;
+  height: 50vh;
+}
