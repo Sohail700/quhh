@@ -41,14 +41,14 @@ html {
     justify-content: space-between;
     color: #878787;
     font-weight: 900;
-    font-size: 19px;
-    margin: 0 20px;
+    font-size: 17px;
+    margin: 0 15px;
     padding: 11px;
   }
   .blog-name {
     position: absolute;
     top: 40px;
-    margin-left: 27px;
+    margin-left: 25px;
   }
 }
 @media (max-width: 801px) and (min-width:999px) {
