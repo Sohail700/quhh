@@ -14,11 +14,11 @@ body {
   position: relative;
   overflow-x: hidden;
   margin: 0 0;
+  margin-bottom: 500px;
 }
 .space-post {
   display: flex;
   flex-direction: column;
-  margin-top: 100px;
   width: 100%;
 }
 .space-container h1 {
@@ -32,10 +32,6 @@ body {
   width: 330px;
   font-weight: 800;
 
-}
-.space-container {
-  width: 600px;
-  padding-left: 10px;
 }
 .space-container a{
   text-decoration: none;
