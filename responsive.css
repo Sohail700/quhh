@@ -39,15 +39,16 @@ html {
     text-decoration: none;
     display: flex;
     justify-content: space-between;
-    color: #e3e3e3;;
-    font-weight: 500;
+    color: #878787;
+    font-weight: 900;
+    font-size: 19px;
     margin: 0 20px;
-    padding-right: 16px;
+    padding: 11px;
   }
   .blog-name {
     position: absolute;
     top: 40px;
-    margin-left: 20px;
+    margin-left: 27px;
   }
 }
 @media (max-width: 801px) and (min-width:999px) {

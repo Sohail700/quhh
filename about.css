@@ -43,3 +43,6 @@ body {
   text-decoration: none;
   color: #1e1e1e;
 }
+ .about h3:hover {
+  color: rgb(25, 45, 45);
+ }

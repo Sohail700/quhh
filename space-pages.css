@@ -36,6 +36,8 @@ header .space-header-container {
   text-decoration: none;
   color: rgb(117, 156, 156);
   margin-left: 20px;
+  font-weight: 900;
+  font-size: 20px;
 }
 main .content {
   display: flex;
@@ -53,10 +55,15 @@ main .content {
   height: 1fr;
   text-decoration: none;
 }
-hr {
+.content h1 hr {
   margin: 20px 0px;
   width: 800px;
   border: 2px solid rgb(29, 61, 61);
+}
+hr {
+  margin: 20px 0px;
+  width: 800px;
+  border: 1px solid rgb(202, 202, 202);
 }
 
 main .content {

@@ -19,7 +19,7 @@
 /* blog name css */
 .blog-name a {
   text-decoration: none;
-  color: #e3e3e3;
+  color: rgb(50, 93, 93);
   font-weight: 700;
   font-size: 25px;
 }
@@ -27,9 +27,9 @@
 /* navigation container */
 .header-nav-container a {
   text-decoration: none;
-  color: #e3e3e3;;
-  font-weight: 500;
-  font-size: 18px;
+  color: #929191;
+  font-weight: 900;
+  font-size: 19px;
   margin: 0;
   margin-right: 50px;
 }
