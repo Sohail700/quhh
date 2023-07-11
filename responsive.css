@@ -26,12 +26,17 @@
   }
 }
 @media (max-width: 799px) {
-  .preview-container
-   {
+  .preview-container{
     max-width: 370px;
     font-size: 16px;
   }
   main hr{
     max-width: 300px;
+  }
+}
+
+@media (max-width: 799px) {
+  .content {
+    
   }
 }
