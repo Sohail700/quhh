@@ -76,6 +76,7 @@ html {
   }
   .content img {
     width: 360px;
+    margin-left: -15px;
   }
   .content h1,
   .content h3,
@@ -83,11 +84,16 @@ html {
   .content h4 {
     max-width: 370px;
     width: 100%;
-    margin: 0 0 0 -10px;
+    margin: 0 0 0 -14px;
     padding: 0;
   }
+  .content h3,
+  .content h2,
+  .content h4  {
+    font-weight: 400;
+  }
   .space-container {
-    max-width: 420px;
+    max-width: 400px;
     padding-left: 10px;
     margin-top: 10px;
   }
