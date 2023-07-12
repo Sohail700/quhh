@@ -84,7 +84,7 @@
 }
 
 .preview-container .post a:hover {
-  color: rgb(0, 58, 106);
+  text-decoration: underline;
 }
 
 .preview-container .post a {
@@ -92,5 +92,9 @@
   color: #161616;
 }
 .main-content h1 {
-  color: rgb(75, 87, 87);;
+  color: rgb(75, 87, 87);
+  margin-left: 28px;
 }
+.main-content a{
+  text-decoration: none;
+} 

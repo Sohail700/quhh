@@ -15,6 +15,7 @@ body {
   position: relative;
   height: auto;
   overflow-x: hidden;
+  line-height: 35px;
 }
 
 header .space-header-container {
@@ -43,7 +44,8 @@ main .content {
   display: flex;
   flex-direction: column;
   margin: 10px;
-  width: 800px;
+  max-width: 1300px;
+  width: 100%;
   margin: 10px 30px;
   padding-top: 100px;
 }
@@ -68,4 +70,16 @@ hr {
 
 main .content {
   margin-bottom: 300px;
+}
+.content img {
+  width: 600px;
+}
+.content p {
+  margin-top: 20px;
+}
+.content figcaption {
+  font-size: 10px;
+  color: rgb(94, 94, 94);
+  line-height: 10px;
+  margin: 5px 0;
 }
