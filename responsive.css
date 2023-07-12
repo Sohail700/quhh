@@ -1,5 +1,6 @@
 html {
   scroll-behavior:smooth;
+  overflow-x: hidden;
 }
 @media (max-width: 800px) {
   .header-container {
@@ -49,6 +50,10 @@ html {
     top: 40px;
     margin-left: 25px;
   }
+  html {
+    scroll-behavior:smooth;
+    overflow-x: hidden;
+  }
 }
 @media (max-width: 800px) {
   .main-content {
@@ -94,7 +99,7 @@ html {
   }
   .space-container {
     max-width: 400px;
-    padding-left: 10px;
+    padding-left: -10px;
     margin-top: 10px;
   }
   .space-container .space-post {
@@ -103,10 +108,9 @@ html {
   .space-middle-section {
     margin-top: 80px;
   }
-  .middle-section .back-video {
+  .space-middle-section .math-video {
     object-fit: fill;
-    width: 70vw;
-    height: 70vh;
+    width: 100vw;
+    height: 50vh;
   }
-  
 }

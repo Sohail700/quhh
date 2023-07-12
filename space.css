@@ -64,8 +64,9 @@ body {
 .math-video {
   object-fit: fill;
   width: 100vw;
-  height: 50vh;
+  height: 90vh;
 }
 .space-container {
   margin-top: 0;
+  margin-left: 10px;
 }
