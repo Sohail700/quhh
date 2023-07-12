@@ -11,11 +11,13 @@ html{
 }
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: rgb(247, 246, 244);
+  background-color: #312e2e;
+  color: rgb(236, 236, 220);
   position: relative;
   height: auto;
   overflow-x: hidden;
   line-height: 35px;
+  font: 16px;
 }
 
 header .space-header-container {
@@ -28,10 +30,10 @@ header .space-header-container {
   align-items: center;
   height: 90px;
   font-weight: 800;
-  background-color: #333;
+  background-color: #1c1c1c;
 }
 .space-header-container .back {
-  margin-right: 20px;
+  margin-right: 40px;
 } 
 .space-header-container a {
   text-decoration: none;
@@ -56,16 +58,17 @@ main .content {
   width: 100%;
   height: 1fr;
   text-decoration: none;
+  font-weight: 500;
 }
 .content h1 hr {
   margin: 20px 0px;
   width: 800px;
-  border: 2px solid rgb(29, 61, 61);
+  border: 2px solid rgb(54, 100, 100);
 }
 hr {
   margin: 20px 0px;
   width: 800px;
-  border: 1px solid rgb(202, 202, 202);
+  border: 1px solid rgb(170, 188, 188);
 }
 
 main .content {
@@ -73,13 +76,14 @@ main .content {
 }
 .content img {
   width: 600px;
+  background-color: #fff;
 }
 .content p {
   margin-top: 20px;
 }
 .content figcaption {
   font-size: 10px;
-  color: rgb(94, 94, 94);
+  color: #e0e0e0;
   line-height: 10px;
   margin: 5px 0;
 }
