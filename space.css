@@ -53,7 +53,7 @@ body {
   color: #5a5a5a;
 }
 .space-post h2:hover {
-  color: rgb(40, 56, 56);
+  text-decoration: underline;
 }
 .space-container h4 hr{
  margin-left: 0;
