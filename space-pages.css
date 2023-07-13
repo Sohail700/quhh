@@ -75,16 +75,23 @@ main .content {
   margin-bottom: 300px;
 }
 .content img {
-  width: 600px;
+  width: 400px;
   background-color: #fff;
   border-radius: 3px;
+
 }
 .content p {
-  margin-top: 20px;
+  margin-top: 25px;
 }
 .content figcaption {
   font-size: 10px;
   color: #e0e0e0;
   line-height: 10px;
   margin: 5px 0;
+}
+.content h2 {
+  font-weight: 700;
+}
+.content h1 {
+  font-weight: 800;
 }
