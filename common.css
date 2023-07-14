@@ -200,7 +200,7 @@ html {
   .content h2,
   .content h4,
   .content-table-wrapper {
-    max-width: 350px;
+    max-width: 370px;
     width: 100%;
     margin: 0 0 0 -20px;
     padding: 0;
@@ -241,7 +241,7 @@ html {
   footer {
     display: flex;
     position: fixed;
-    right: 100px;
+    right: 50px;
     bottom: 20px;
     background: transparent;
     backdrop-filter: blur(10px);
