@@ -1,47 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
-/* header container  */
-.header-container {
-  display: flex;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 70px;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 10px 50px;
-  align-items: center;
-  background-color: #343232;
-  z-index: 300;
+html {
+  overflow-x: hidden;
 }
-
-/* blog name css */
-.blog-name a {
-  text-decoration: none;
-  color: rgb(50, 93, 93);
-  font-weight: 900;
-  font-size: 30px;
-}
-
-/* navigation container */
-.header-nav-container a {
-  text-decoration: none;
-  color: #929191;
-  font-weight: 900;
-  font-size: 19px;
-  margin: 0;
-  margin-right: 50px;
-}
-
-.header-nav-container a:hover {
-  color: #c7c7c7;
-}
-.header-nav-container a:active {
-  text-decoration: underline;
-}
-
-
 /* background image */
 .back-image{
   display: flex;
@@ -87,6 +48,10 @@
   text-decoration: underline;
 }
 
+.main-content a{
+  text-decoration: none;
+} 
+
 .preview-container .post a {
   text-decoration: none;
   color: #161616;
@@ -95,6 +60,3 @@
   color: rgb(75, 87, 87);
   margin-left: 28px;
 }
-.main-content a{
-  text-decoration: none;
-} 
