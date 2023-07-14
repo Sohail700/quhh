@@ -75,7 +75,7 @@ footer a:hover {
 /* responsive secttion *//*----------------------------------------------------------------------*/  /* responsive secttion */
 
 
-/* index responsive section */
+/* index responsive section ------------------*/
 html {
   scroll-behavior:smooth;
   overflow-x: hidden;
@@ -147,22 +147,36 @@ html {
   
 }
 
-/* about responsive section  */
+/* about responsive section ------------------ */
 @media (max-width: 800px) {
   .about-midde-section .back-video {
     object-fit: fill;
-    width: 105vw;
+    width: 100vw;
     height: 50vh;
   }
 }
 
-
-
+/* space section responsive------------------- */
 @media (max-width: 800px) {
-
+  .space-container {
+    max-width: 400px;
+    padding-left: -10px;
+    margin-top: 10px;
+  }
+  .space-container .space-post {
+    margin-bottom: 0 0;
+  }
+  .space-middle-section {
+    margin-top: 80px;
+  }
+  .space-middle-section .math-video {
+    object-fit: fill;
+    width: 100vw;
+    height: 50vh;
+  }
 }
 
-/* space pages section responsive  */
+/* space pages section responsive ---------------- */
 @media (max-width: 800px) {
   .content {
     font-size: 14px;
@@ -171,9 +185,6 @@ html {
   .content hr {
     max-width: 100%;
     margin: 20px 0px;
-  }
-  .content figcaption {
-    
   }
   .content p {
     margin-top: 20px;
@@ -201,22 +212,6 @@ html {
   }
   .content h1 {
     font-weight: 800;
-  }
-  .space-container {
-    max-width: 400px;
-    padding-left: -10px;
-    margin-top: 10px;
-  }
-  .space-container .space-post {
-    margin-bottom: 0 0;
-  }
-  .space-middle-section {
-    margin-top: 80px;
-  }
-  .space-middle-section .math-video {
-    object-fit: fill;
-    width: 100vw;
-    height: 50vh;
   }
   
 }
