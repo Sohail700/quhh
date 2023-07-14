@@ -86,8 +86,7 @@ main .content {
 .content figcaption {
   font-size: 10px;
   color: #e0e0e0;
-  line-height: 10px;
-  margin: 5px 0;
+  line-height: 15px;
 }
 .content h2 {
   font-weight: 700;
