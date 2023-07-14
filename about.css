@@ -14,8 +14,9 @@ body {
   font-family: 'Poppins', sans-serif;
   background-color: rgb(247, 246, 244);
   position: relative;
-  height: auto;
+  height: 800px;
   color: rgb(21, 30, 30);
+  -webkit-tap-highlight-color: transparent;
 }
 
 /* middle section -------------------*/

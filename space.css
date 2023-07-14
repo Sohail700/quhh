@@ -17,6 +17,7 @@ body {
   overflow-x: hidden;
   margin: 0 0;
   margin-bottom: 500px;
+  -webkit-tap-highlight-color: transparent;
 }
 
 /* middle section starts here--------------------------- */

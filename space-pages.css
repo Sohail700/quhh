@@ -19,6 +19,7 @@ body {
   overflow-x: hidden;
   line-height: 35px;
   font: 16px;
+  -webkit-tap-highlight-color: transparent;
 }
 
 header .space-header-container {
