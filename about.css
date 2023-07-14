@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
+/* default section */
 html{
   overflow-x:hidden;
 }
@@ -17,7 +18,7 @@ body {
   color: rgb(21, 30, 30);
 }
 
-/* middle section */
+/* middle section -------------------*/
 .back-video {
   object-fit: fill;
   width: 100vw;
@@ -25,28 +26,19 @@ body {
 }
 
 
-/* main about section */
+/* main about section --------------*/
 .about {
-
   margin-bottom: 500px;
-  width: 310px;
   margin: 10px 10px;
   position: relative;
 }
-.about .github {
-  position: absolute;
-  top: 135px;
-  left: 100px;
+.about .social {
+  display: flex;
+  align-items: center;
+}
+.about img {
   width: 30px;
 }
-
-.about .linkedin {
-  position: absolute;
-  top: 185px;
-  left: 116px;
-  width: 30px;
-}
-
 .about a {
   text-decoration: none;
   color: rgb(21, 30, 30);

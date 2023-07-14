@@ -18,6 +18,15 @@ body {
   margin: 0 0;
   margin-bottom: 500px;
 }
+
+/* middle section starts here--------------------------- */
+.math-video {
+  object-fit: fill;
+  width: 100vw;
+  height: 90vh;
+}
+
+/* main section ---------------------------------------------- */
 .space-post {
   display: flex;
   flex-direction: column;
@@ -60,15 +69,9 @@ body {
 .space-container h4 hr{
  margin-left: 0;
  margin-top: 10px;
- width: 700px;
-}
-
-.math-video {
-  object-fit: fill;
-  width: 100vw;
-  height: 90vh;
+ width: 100%;
 }
 .space-container {
   margin-top: 0;
-  margin-left: 10px;
+  margin-left: 5px;
 }
