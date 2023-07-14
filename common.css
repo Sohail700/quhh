@@ -218,7 +218,7 @@ html {
   }
   .content-table-wrapper {
     margin: 0 0 40px -20px;
-    background-color: rgb(45, 44, 44);
+    background-color: rgb(236, 236, 220);
     font-weight: 700;
     padding: 10px 5px;
     padding-left: 20px;
@@ -228,17 +228,12 @@ html {
   }
   .content-table-wrapper a {
     text-decoration: none;
+    color: rgb(45, 44, 44);
+  } 
+  .content-table-wrapper div:hover a{
     color: rgb(236, 236, 220);
-  }
-  .content-table-wrapper div:hover {
-    cursor: pointer;
-    background-color: rgb(47, 89, 89);
-    border-radius: 7px;
-    padding: 3px 7px;
   }
   .content-table-wrapper .sub {
     padding-left: 25px;
   }
-  
-  
 }

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
-html{
+html,body{
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
@@ -12,8 +12,8 @@ html{
 }
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #312e2e;
-  color: rgb(236, 236, 220);
+  background-color: rgb(236, 236, 220);
+  color: #312e2e;
   position: relative;
   height: auto;
   overflow-x: hidden;
@@ -98,8 +98,8 @@ main .content {
 }
 .content-table-wrapper {
   margin: 0 0 40px -20px;
-  background-color: rgb(45, 44, 44);
-  color: rgb(236, 236, 220);
+  background-color: rgb(236, 236, 220);
+  color: rgb(45, 44, 44);
   font-weight: 700;
   padding: 10px 5px;
   padding-left: 20px;
@@ -108,6 +108,13 @@ main .content {
   line-height: 18px;
   margin-bottom: 30px;
   max-width: 700px;
+}
+.content-table-wrapper a {
+  text-decoration: none;
+  color: rgb(45, 44, 44);
+} 
+.content-table-wrapper div:hover a{
+  color: rgb(236, 236, 220);
 }
 .content-table-wrapper div:hover {
   cursor: pointer;
@@ -118,25 +125,37 @@ main .content {
 .content-table-wrapper .sub {
   padding-left: 25px;
 }
-.content-table-wrapper a {
-  text-decoration: none;
-  color: rgb(236, 236, 220);
-}
+
 
 footer {
   display: flex;
   position: fixed;
   right: 20px;
   bottom: 20px;
-  background-color: #e0e0e0;
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 4px 10px rgba(91, 91, 91, 0.166);
   color: #1c1c1c;
-  padding: 0px 15px;
+  padding: 5px 15px;
   border-radius: 20px;
-  font-weight: 700;
-  font-size: 25px;
+  font-weight: 900;
+  font-size: 22px;
 }
 
-/* responsive------------------------- */
+.credit a {
+  color: rgb(32, 69, 69);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* responsive----------------------------------------------------- */
 
 @media (max-width: 600px) {
   footer {
@@ -147,7 +166,7 @@ footer {
     background: transparent;
     backdrop-filter: blur(10px);
     box-shadow: 0px 4px 10px rgba(91, 91, 91, 0.166);
-    color:  #e0e0e0;
+    color:  #1c1c1c;
     padding: 0px 15px;
     border-radius: 20px;
     font-weight: 800;
