@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
+
+/* Body and html section-------------------- */
 html,body{
   overflow-x: hidden;
   scroll-behavior: smooth;
@@ -22,6 +24,8 @@ body {
   -webkit-tap-highlight-color: transparent;
 }
 
+
+/* header section ------------------------------------------------------------- */
 header .space-header-container {
   display: flex;
   position: fixed;
@@ -44,6 +48,9 @@ header .space-header-container {
   font-weight: 900;
   font-size: 20px;
 }
+
+
+/* main section start here------------------------------------------------------- */
 main .content {
   display: flex;
   flex-direction: column;
@@ -125,8 +132,12 @@ main .content {
 .content-table-wrapper .sub {
   padding-left: 25px;
 }
+.credit a {
+  color: rgb(32, 69, 69);
+}
 
 
+/* footer section ---------------------------------- */
 footer {
   display: flex;
   position: fixed;
@@ -141,9 +152,7 @@ footer {
   font-size: 22px;
 }
 
-.credit a {
-  color: rgb(32, 69, 69);
-}
+
 
 
 
