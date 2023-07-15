@@ -6,7 +6,7 @@ html {
 body {
   -webkit-tap-highlight-color: transparent;
 }
-/* background image */
+/* background image ----------------------------*/
 .back-image{
   display: flex;
   max-width: 100%;
@@ -22,7 +22,7 @@ body {
   image-rendering:pixelated;
 }
 
-/* main section start here */
+/* main section start here------------------------------------------- */
 .preview-container {
   margin: 10px 30px;
   width: 800px;
