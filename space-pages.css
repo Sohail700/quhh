@@ -120,10 +120,10 @@ main .content {
   text-decoration: none;
   color: rgb(45, 44, 44);
 } 
-.content-table-wrapper div:hover a{
+.content-table-wrapper a:hover div{
   color: rgb(236, 236, 220);
 }
-.content-table-wrapper div:hover {
+.background-wrapper div:hover {
   cursor: pointer;
   background-color: rgb(47, 89, 89);
   border-radius: 7px;
