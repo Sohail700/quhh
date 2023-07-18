@@ -90,7 +90,7 @@ main .content {
 }
 .content figcaption {
   font-size: 10px;
-  color: #e0e0e0;
+  color: #333;
   line-height: 15px;
 }
 .content h2 {
