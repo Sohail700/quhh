@@ -51,4 +51,39 @@ body {
   width: 100%;
   margin: 0 auto;
 }
+.about-midde-section .back-video {
+  object-fit: fill;
+  width: 100vw;
+  height: 50vh;
+}
+.about-midde-section .about-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+.about-midde-section .about-content h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.about-midde-section .about-content p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.about-midde-section .about-content .social {
+  margin-top: 20px;
+}
+.about-midde-section .about-content .social a {
+  margin: 0 10px;
+}
+.about-midde-section .about-content .social img {
+  width: 30px;
+}
+.about-midde-section .about-content .social a:hover {
+  text-decoration: underline;
+}
 

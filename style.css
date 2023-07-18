@@ -5,6 +5,7 @@ html {
 }
 body {
   -webkit-tap-highlight-color: transparent;
+  height: 1000px;
 }
 /* background image ----------------------------*/
 .back-image{
@@ -31,22 +32,23 @@ body {
   max-width: 800px;
   width: 100%;
 }
-.preview-container p {
-  padding: 5px 5px;
-  width: 1fr;
+.preview-container .recent-post .topic {
+  font-size: 30px;
+  font-weight: 700;
 }
 
 .preview-container .topic {
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 700;
 
 }
 .preview-container .content {
-  font-size: 27px;
+  font-size: 20px;
   font-weight: 400;
 }
 .preview-container .author {
-  font-size: 20px;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .preview-container .recent-post a:hover {
@@ -64,4 +66,17 @@ body {
 .main-content h1 {
   color: rgb(75, 87, 87);
   margin-left: 28px;
+}
+.main-content h2 {
+  color: rgb(75, 87, 87);
+  margin-left: 28px;
+}
+.main-content p {
+  color: rgb(75, 87, 87);
+  margin-left: 28px;
+}
+.main-content hr {
+  margin: 20px 0px;
+  width: 800px;
+  border: 1px solid rgb(170, 188, 188);
 }
