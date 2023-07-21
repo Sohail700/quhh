@@ -25,6 +25,7 @@ body {
   object-fit: fill;
   width: 100vw;
   height: 90vh;
+  margin-top: 0px;
 }
 
 /* main section ---------------------------------------------- */
