@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
-
 html {
-  overflow-x: hidden;
+  
 }
 body {
-  -webkit-tap-highlight-color: transparent;
   height: 1000px;
 }
 /* background image ----------------------------*/
