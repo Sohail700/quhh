@@ -83,7 +83,7 @@ html {
   scroll-behavior:smooth;
   overflow-x: hidden;
 }
-@media (max-width: 600px) {
+@media (max-width: 760px) {
   .header-container {
     flex-direction: column;
     position: fixed;
@@ -154,7 +154,7 @@ html {
 }
 
 /* about responsive section ------------------ */
-@media (max-width: 600px) {
+@media (max-width: 760px) {
   .about-midde-section .back-video {
     object-fit: fill;
     width: 100vw;
@@ -163,7 +163,7 @@ html {
 }
 
 /* space section responsive------------------- */
-@media (max-width: 600px) {
+@media (max-width: 760px) {
   .space-container {
     max-width: 400px;
     margin-top: 10px;
@@ -182,7 +182,7 @@ html {
 }
 
 /* space pages section responsive ---------------- */
-@media (max-width: 600px) {
+@media (max-width: 760px) {
   .content {
     font-size: 14px;
     
